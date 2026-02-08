@@ -1,13 +1,14 @@
-⭐**STATISTICS ANALYZER**
+⭐#**STATISTICS ANALYZER**
 
-# Project Overview
+**Project Overview**
 A C program that processes embedded sensor data (ADC readings 0-255) to compute:
 - Minimum • Maximum • Mean • Median 
 - Descending sort (largest → smallest)
 
-Perfect for: Piezo harvesters, temperature sensors, current monitoring
+**Perfect for**: Piezo harvesters, temperature sensors, current monitoring
 
 🔴**Live Demo Output**
+
 ORIGINAL ARRAY:  
 34  201  190  154  198  267  67  125  87  295  123  11  543  26  876
 
@@ -15,13 +16,16 @@ SORTED ARRAY (descending):
 876 543  295  267  201  198  190  154  125  123  87  67  34  26  11
 
 📝**STATISTICS**:
+
 Mean:    217
 Median:  190
 Maximum: 876
 Minimum: 11
 
+
 **Technical Skills Mastered**
-    Skill Category-->What I Implemented-->Real-World Value
+
+****Skill Category-->What I Implemented-->Real-World Value
 🔗 Memory Management-->	unsigned char *ptr pointer arithmetic-->Direct hardware access (ADC/GPIO)
 ⚡ Embedded Math-->Integer-only sum/length division-->No FPU dependency, predictable timing
 🔄 Algorithms-->Bubble sort(descending)-->Reliable, stack-safe sorting
