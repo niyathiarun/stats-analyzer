@@ -1,32 +1,57 @@
-⭐C Statistics Analyzer
-Embedded Systems Data Processing Tool
+**STATISTICS ANALYZER**
 
-✨What It Does
-Clean C program processes sensor data arrays (ADC readings 0-255) to compute core statistics and sort descending.
+**Project Overview**
+A C program that processes embedded sensor data (ADC readings 0-255) to compute:
+- Minimum • Maximum • Mean • Median 
+- Descending sort (largest → smallest)
 
-🔴Live Results:
-ORIGINAL:  34 201 190 154 198 267 67 125 87 295 123 11 543 26 876
-SORTED:    876 543 295 267 201 198 190 154 125 123 87 67 34 26 11
-MEAN:      217    MEDIAN:  190    MAX: 876    MIN: 11
+Perfect for: Piezo harvesters, temperature sensors, current monitoring
 
-📝Core Skills Demonstrated
+**Live Demo Output**
+ORIGINAL ARRAY:  
+34  201  190  154  198  267  67  125  87  295  123  11  543  26  876
 
-Skill              Implementation           Why It Matters
-C Pointers         unsigned char *ptr       Direct memory access
-Integer Math       Sum ÷ length             No floating point needed
-Bubble Sort        Descending order         Predictable execution  
-Modular Design     stats.h + stats.c        Professional structure
-GCC Ready          Clean compilation        Industry standard
-Git Workflow       Multiple commits         Version control skills
+SORTED ARRAY (descending):
+876 543  295  267  201  198  190  154  125  123  87  67  34  26  11
 
-⭐Key Features
-ARM Cortex-M4 ready    No dynamic memory
-Stack-friendly        Perfect for 8-bit ADC
-Production quality    Real sensor processing
+**STATISTICS**:
+Mean:    217
+Median:  190
+Maximum: 876
+Minimum: 11
 
-Real-world use: Piezo → Temperature → Current sensors
+**Technical Skills Mastered**
 
----
-Niyathirum
-ECE Student | Bengaluru
+Skill Category        What I Implemented        Real-World Value
+Memory Management     unsigned char *ptr        Direct hardware access (ADC/GPIO)
+Embedded Math         Integer-only division     No FPU dependency, predictable timing
+Algorithms            Bubble sort (descending)  Reliable, stack-safe sorting
+Software Design       stats.h + stats.c         Industry-standard firmware structure
+Build Systems         GCC-ready compilation     ARM Cortex-M4 deployable
+Version Control       Git commits + branching   Professional development process
+
+
+**Embedded Production Features:**
+
+ZERO dynamic memory allocation (malloc-free)
+Stack-friendly (no recursion)
+8-bit data optimized (unsigned char 0-255)
+Predictable execution time
+No floating point operations
+ARM Cortex-M compatible
+Real sensor data processing pipeline
+
+
+**Real-World Applications**
+
+Piezoelectric Energy Harvesters → ADC → Statistics → Dashboard
+Temperature Sensors (DHT11) → ADC → Statistics → Monitoring  
+Current Sensors (ACS712) → ADC → Statistics → Power Analysis
+IoT Sensor Networks → Data Processing → Cloud Upload
+
+
+**Author:**
+Niyathi arun
+ECE Student | Bengaluru, India
 February 2026
+Connect: [www.linkedin.com/in/niyathiarun]
